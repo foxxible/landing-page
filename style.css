@@ -39,6 +39,11 @@ ul {
     color: #F9FAF8;
 }
 
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
 .info {
     display: flex;
     justify-content: center;
@@ -50,4 +55,25 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.cta-text {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
