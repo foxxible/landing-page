@@ -10,6 +10,8 @@ body {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: bolder;
+    padding: 20px 250px 20px 250px;
 }
 
 .logo {
@@ -27,10 +29,11 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 150px 250px 150px 250px;
 }
 
 .hero-header {
@@ -39,22 +42,44 @@ ul {
     color: #F9FAF8;
 }
 
+.hero-secondary-text {
+    display: flex;
+    width: 50%;
+}
+
 .hero-button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
-.info {
+.info-content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 100px;
+    text-align: center;
+    padding: 20px 250px 20px 250px;
+    margin-bottom: 50px;
+}
+
+.card {
+    max-width: 175px;
 }
 
 .info-header {
-    text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
 }
 
 .quote {
@@ -65,9 +90,48 @@ ul {
     font-weight: lighter;
 }
 
+.quote-text {
+    padding: 100px 500px 100px 500px;
+}
+
+.quote-name {
+    text-align: right;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.cta-header {
+    font-weight: bold;
+    margin: 0;
+}
+
 .cta-text {
     background-color: #3882F6;
     color: #F9FAF8;
+    margin: 20px 250px 20px 250px;
+    padding: 20px 250px 20px 250px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #E5E7EB;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .footer {
@@ -76,4 +140,5 @@ ul {
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 32px;
 }
